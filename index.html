@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Triangle Tracker</title>
+</head>
+<body>
+  <h1>Triangle Tracker</h1>
+  <hr>
+  <p>Need to find out the type of a triangle? Insert the length of each side here to find out.</p>
+  <form>
+    <label for="side1Input">Side 1</label>
+    <input id="side1Input" type="text" name="side1Input">
+    <label for="side2Input">Side 2</label>
+    <input id="side2Input" type="text" name="side2Input">
+    <label for="side3Input">Side 3</label>
+    <input id="side3Input" type="text" name="side3Input">
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+
+  <div id="result" class="hidden">
+    <h2>Result</h2>
+    <p>Based on your inputs, this is <span id="resultText"></span></p>
+    <button type="button" id="reset">Reset</button>
+  </div>
+</body>
+</html>

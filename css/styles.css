@@ -1,0 +1,21 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: #ffe4c4;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+hr {
+  width: 55%;
+}
+
+button {
+  size: 24px;
+  font-size: 18px;
+  margin: 8px;
+}
